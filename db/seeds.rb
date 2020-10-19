@@ -17,16 +17,16 @@ u1 = User.create({
     last_name: 'Gomez', 
     email: 'joe@gmail.com',
     username: 'joeg',
-     password_digest: '123', 
-     age: 21
+    password: '123', 
+    age: 21
 })
 u2 = User.create({
     first_name:'Bob', 
     last_name: 'Doe',
     email: 'bob@gmail.com',
     username: 'bob1', 
-    password_digest: '123',
-     age: 30
+    password: '123',
+    age: 30
 })
 
 # Admin
@@ -35,7 +35,7 @@ a1 = User.create({
     last_name: 'Doe',
     email: 'rick@gmail.com',
     username: 'rick1',
-    password_digest: '123',
+    password: '123',
     age: 40,
     admin: true
 })
@@ -96,10 +96,10 @@ s9 = Shelter.create({
     phone: 7134600781
 })
 s10 = Shelter.create({
-    name: 'Volunteers of America Texas',
-    location: '4808 Yale St, Houston, TX 77018',
+    name: 'Habitat for Humanity Northwest Harris County',
+    location: '13350 Jones Rd, Houston, TX 77070',
     img: 'hello world',
-    phone: 7134600781
+    phone: 2818905585
 })
 s11 = Shelter.create({
     name: 'Houston Humane Society',
