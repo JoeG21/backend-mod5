@@ -1,8 +1,14 @@
 class UserOppsController < ApplicationController
+
+   # def index
+   #    all = UserOpp.all
+   #    render 
+   # end
+
    def create
-    UserOpp.create(user_id:params[:user_id], opp_id:params[:opp_id])
-    user_opp = User.new(user_params)
-    redirect '/opps' 
+      user_opp = UserOpp.create(user_id:params[:user_id], opp_id:params[:opp_id])
+      render json: user_opp
+   #  redirect '/opps' 
    end
 
 end

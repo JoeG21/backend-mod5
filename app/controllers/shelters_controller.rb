@@ -1,11 +1,11 @@
 class SheltersController < ApplicationController
     def index
         shelter = Shelter.all
-        render json: shelter, only: [:name, :location, :img, :phone]
+        render json: shelter
     end
 
     def show
-        user = find_shelter
+        shelter = find_shelter
         render json: shelter, only: [:name, :location, :img, :phone]
     end
 

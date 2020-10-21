@@ -120,7 +120,7 @@ o1 = Opp.create({
 o2 = Opp.create({
     title: 'Cleaning',
     des: 'Need some help cleaning the area',
-    date: '2021-08-21 13:00:00', 
+    date: '2021-11-21 13:00:00', 
     howlong: 4, 
     shelter_id: s1.id
 })
@@ -131,6 +131,140 @@ o3 = Opp.create({
     howlong: 3, 
     shelter_id: s2.id
 })
+o4 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-12-05 10:00', 
+    howlong: 3, 
+    shelter_id: s2.id
+})
+o5 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-12-05 10:00', 
+    howlong: 3, 
+    shelter_id: s3.id
+})
+o6 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-12-05 10:00', 
+    howlong: 3, 
+    shelter_id: s3.id
+})
+o7 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-05 12:00', 
+    howlong: 3, 
+    shelter_id: s4.id
+})
+o8 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-12-21 06:00', 
+    howlong: 3, 
+    shelter_id: s4.id
+})
+o9 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s5.id
+})
+o10 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-12-21 06:00', 
+    howlong: 3, 
+    shelter_id: s5.id
+})
+o11 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s6.id
+})
+o12 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s6.id
+})
+o13 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s7.id
+})
+o14 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s7.id
+})
+o15 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s8.id
+})
+o16 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s8.id
+})
+o17 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s9.id
+})
+o18 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s9.id
+})
+o19 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s10.id
+})
+o20 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s10.id
+})
+o21 = Opp.create({
+    title: 'Serving',
+    des: 'Serving food to the homeless and in need',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s11.id
+})
+o22 = Opp.create({
+    title: 'Cleaning',
+    des: 'Need some help cleaing the place up',
+    date: '2020-11-21 06:00', 
+    howlong: 3, 
+    shelter_id: s11.id
+})
+
 
 
 # UserOpps
