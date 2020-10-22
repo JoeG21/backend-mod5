@@ -44,8 +44,8 @@ a1 = User.create({
 s1 = Shelter.create({
     name: 'BARC Volunteering',
     location: '2700 Evella St, Houston, TX 77026',
-    img: 'hello world',
-    phone: 123
+    img: 'https://www.clipartkey.com/mpngs/m/35-355495_icon-of-office-building-building-png-cartoon.png',
+    phone: 7138639835
 })
 s2 = Shelter.create({
     name: 'Star of Hope - Women & Family Emergency Shelter',

@@ -5,8 +5,9 @@ class UsersController < ApplicationController
     end
 
     def show
-        user = find_user
-        render json: user, only: [:id, :first_name, :last_name, :email, :username, :password, :age]
+        user = User.find(params[:id])
+        user_opps = user.opps
+        render json: user_opps
     end
 
     def create
@@ -27,9 +28,9 @@ class UsersController < ApplicationController
     end
 
     private
-    def find_user
-        @user = User.find(params[:id])
-    end
+    # def find_user
+    #     @user = User.find(params[:id])
+    # end
 
     def users_params
         params.require(:user).permit(:first_name, :last_name, :email, :username, :password, :age)
